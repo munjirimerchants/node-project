@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "HomepageBaukasten-Bold";
+  src: url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.eot");
+  src: url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.svg#HomepageBaukasten-Bold")
+      format("svg");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
+
+.App {
+  text-align: center;
+}
+
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+.heading1Blue {
+  color: #003142;
+  font-family: "Inter", sans-serif;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.heading2Blue {
+  color: #0089a0;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.heading3Blue {
+  color: #0089a0;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bannerImage {
+  background-image: url("../../images/home_banner2.png");
+
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-width: 100%;
+  height: 50rem;
+}
+
+.bannerGradientOverlay {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #fff -6.63%, rgba(255, 255, 255, 0) 50%),
+      linear-gradient(178deg, #e6f3f8 -15.97%, #229eb2 70%),
+      linear-gradient(180deg, #0089a0 -6.63%, rgba(255, 255, 255, 0) 50%),
+      linear-gradient(180deg, #003142 0%, rgba(255, 255, 255, 0) 50%);
+    mix-blend-mode: multiply;
+  }
+}
+
+.darkBlueText {
+  color: #003142;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.btnStyle {
+  border-radius: 0.125rem;
+  background: rgba(230, 243, 248, 0.3);
+  width: 5rem;
+  height: 2rem;
+  flex-shrink: 0;
+}
+
+.titleHome {
+  text-align: center;
+  color: #fff;
+  font-family: HomepageBaukasten-Bold;
+  font-size: 4.375rem;
+  font-style: normal;
+  line-height: normal;
+}
+
+.titleUnderline {
+  text-decoration-color: #0089a0;
+  text-underline-offset: 0.75rem;
+  mix-blend-mode: screen;
+  text-decoration-thickness: 0.5rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.yellowLineInYellowBox {
+  color: #fffffe;
+  background-color: #fffaee;
+  width: 7.5rem;
+  height: 0.5rem;
+}
+
+.homeEnquireButtonYellowBox {
+  border-radius: 2.375rem;
+  background: #0089a0;
+  width: 9.0625rem;
+}
+
+#homeEnquireButtonDiv {
+  display: flex;
+  justify-content: end;
+  align-content: center;
+}
+
+#homeAreasWeCover {
+  color: #003142;
+  text-align: center;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 768px) {
+  .titleHome {
+    text-align: center;
+    color: #fff;
+    font-family: HomepageBaukasten-Bold;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  @media only screen and (max-width: 420px) {
+    .yellowLineInYellowBox {
+      width: 5.5rem;
+    }
+
+    .homeEnquireButtonYellowBox {
+      width: 9.0625rem;
+      text-wrap: nowrap;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    #yellowLineDiv {
+      display: none;
+    }
+    #homeYellowBoxRow {
+      display: flex;
+      justify-content: start;
+    }
+    #homeEnquireButtonDiv {
+      display: flex;
+      justify-content: center;
+    }
+
+    #homeAreasWeCover {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+html {
+  scrollbar-gutter: stable !important;
+}
+
+.modal-open {
+  padding: 0 !important;
+  margin: 0 !important;
+}

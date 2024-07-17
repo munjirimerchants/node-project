@@ -1,0 +1,101 @@
+
+.enquiryModal{
+    padding: 2rem;
+}
+
+.enquiryModalCloseButtonDiv{
+    display: flex;
+    flex: 1 0;
+    justify-content: end;
+}
+
+.enquiryModalCloseButton{
+    color: black;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+.enquiryModalEnquiryIDNumber{
+    color:rgb(0, 146, 156);
+    font-weight: 650;
+    font-size: 1.3rem;
+}
+
+.enquiryModalReplyButton{
+    background-color: rgb(2, 97, 100);
+    border: none;
+    width: 6rem;
+    margin-top: 2rem;
+}
+
+.enquiryModalCommentButtonDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.enquiryModalReplyButton:hover{
+    background-color: rgb(7, 132, 136);
+    border: none;
+    
+}
+
+.enquiryModalEnquiryID{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0;
+}
+.enquiryModalEnquiryIDStack{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.enquiryModalCategoryTag{
+    margin: 0;
+    white-space: nowrap;
+}
+
+.enquiryModalCategory{
+    font-weight: 700;
+    word-wrap: break-word;
+    color: rgb(0, 59, 56);
+    
+
+}
+
+.enquirySmallSizeText{
+    font-size: 0.8rem;
+
+}
+
+.enquiryNormalSizeText{
+    font-size: 1rem;
+}
+ /* Define styles for different enquiry statuses */
+ .enquiryModalStatusOpen {
+    color: rgb(199, 0, 0) !important;
+    background-color: rgb(235, 177, 177) !important;
+    border-radius: 0.5rem;
+    width: 4rem;
+    padding: 0.1rem;
+    padding-inline: 0.3rem;
+    margin: 0;
+    text-align: center;
+    margin-left: 0.3rem;
+    font-weight: 600;
+  }
+  
+  .enquiryModalStatusClosed{
+    color: rgb(10, 58, 0) !important;
+    background-color: rgb(160, 216, 160) !important;
+    border-radius: 0.5rem;
+    width: 4rem;
+    padding: 0.1rem;
+    padding-inline: 0.3rem;
+    margin: 0;
+    text-align: center;
+    margin-left: 0.3rem;
+    font-weight: 600;
+  }
+
+

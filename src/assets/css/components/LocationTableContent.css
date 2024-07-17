@@ -1,0 +1,9 @@
+.table.col1 {
+    border: none;
+    color: #436A77;
+    background-color: #F8F8F8;
+    font-size: 0.9375;
+    font-style: normal;
+    font-weight: 500; 
+    width: max-content;
+}

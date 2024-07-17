@@ -1,0 +1,24 @@
+.adminLoginBackgroundImage {
+  background-image: url("../../images/admin_login.png");
+
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+}
+
+.adminLoginBox {
+  border: 0.1rem #bbc8d4 solid;
+  border-radius: 1rem;
+}
+
+.adminLoginCol2 {
+  padding-top: 10rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .adminLoginBackgroundImage {
+    background-size: cover; /* or background-size: contain; */
+  }
+}

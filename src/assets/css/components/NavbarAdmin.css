@@ -1,0 +1,215 @@
+.adminNavbar {
+  width: 287px; /* Set the width of the admin navbar */
+  height: 100vh; /* Adjust height to fill the viewport */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+  background-image: url("../../../../public/AdminPortalOffcanvas.png"); /* Specify the path to your background image */
+  background-size: cover; /* Ensure the background image covers the entire navbar */
+  background-position: center; /* Center the background image within the navbar */
+  color: #ffffff;
+  z-index: 1004;
+  font-size: 1.25rem;
+}
+
+.adminLogoDiv {
+  align-self: center;
+}
+
+.adminLoginLogoPosition {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 10rem;
+}
+
+.adminLink {
+  color: unset;
+  text-decoration: unset;
+  transition: color 0.5s ease; /* Transition color change over 0.3 seconds */
+}
+
+.adminLink:hover {
+  color: #ffcc00; /* Change link color to yellow on hover */
+}
+
+.adminLinkDiv {
+}
+
+.adminNavbarSize {
+  padding: 1rem;
+  margin: 0.4rem;
+  border-radius: 0.75rem;
+  transition: background-color 0.5s ease; /* Transition color change over 0.3 seconds */
+}
+
+.adminNavbarSize:hover {
+  background-color: rgba(255, 255, 255, 0.295);
+}
+
+.adminContentContainer {
+  flex: 1; /* Expand to fill remaining space */
+  margin-left: 287px; /* Adjust based on the width of the admin navbar */
+}
+
+.adminTopNavBarContainer {
+  position: relative; /* Ensure the container is positioned relative */
+  z-index: 1; /* Ensure the container is above the shadow */
+}
+
+.adminTopNavWrapper {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adminTopNavDropDown {
+  /* Example styles for the dropdown container */
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.801); /* Example box shadow */
+}
+
+.adminTopNavLogo {
+  flex-direction: column;
+  flex: 0;
+}
+
+.adminTopNavBarShadow {
+  position: relative;
+  transform: translateX(-10vw);
+  z-index: -100;
+  top: 0;
+  left: 0;
+  width: 150vw;
+  height: 3rem;
+  box-shadow: inset 0px 8px 7px 0px rgb(212 209 209 / 24%); /* Inset shadow effect */
+}
+
+.adminLogo {
+  height: 6rem;
+  width: 14rem;
+  align-self: center;
+  justify-content: center;
+  margin-block: 1.5rem;
+}
+
+.adminIcons {
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.adminHeading {
+  color: #15374d;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.adminSubHeading {
+  color: #436a77;
+  font-size: 1.05rem;
+}
+
+.adminSpacer {
+  padding-block: 0rem;
+}
+
+.adminLeftSpacer {
+  padding-inline: 3rem;
+}
+
+.adminBorderBottom {
+  border-bottom: 2px #eff3f9 solid;
+  padding-block: 1rem;
+}
+
+.adminOffCanvas {
+  width: 20rem !important;
+}
+
+.adminOffCanvasBody {
+  overflow: hidden;
+  padding: 0;
+}
+
+.adminOffCanvasNavbar {
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+  background-image: url("../../../../public/AdminPortalOffcanvas.png");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  z-index: 1004;
+  font-size: 1.25rem;
+  min-height: 100%;
+}
+
+.customHeader {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.customHeader .close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.customHeader .close:focus {
+  outline: none;
+}
+
+.customHeader .icon {
+  width: 24px;
+  height: 24px;
+  color: rgb(255, 255, 255);
+}
+
+.adminTableContainer {
+  margin-block: 1rem;
+}
+
+.adminNavOffScreenBtn {
+  margin: 1rem;
+
+  padding: 0.5rem;
+  background-color: rgb(75, 198, 255);
+  border: none;
+}
+
+.adminNavOffScreenBtn:hover {
+  background-color: rgb(143, 219, 255);
+}
+
+.adminNavOffScreenBtn:active,
+.adminNavOffScreenBtn.active,
+.adminNavOffScreenBtn:focus {
+  background-color: rgb(
+    75,
+    198,
+    255
+  ) !important; /* Use !important to ensure overriding */
+}
+@media screen and (max-width: 768px) {
+  .adminContentContainer {
+    flex: 1;
+    margin-inline: 1rem;
+  }
+
+  .adminTableContainer {
+    max-width: 100%;
+  }
+}

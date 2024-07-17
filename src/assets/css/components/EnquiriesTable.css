@@ -1,0 +1,260 @@
+.enquiryTableDiv {
+  min-height: 20rem;
+}
+
+.enquiryPagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.enquiryPaginationAdmin {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.enquiryEntryInputStack {
+  margin-bottom: 0.5rem;
+}
+
+.enquiryEntryInputForm {
+  max-width: 5rem;
+}
+
+.enquiryNumberInputForm {
+  max-width: 4rem;
+}
+
+.enquiryNumberInputStack {
+  margin-inline: 1rem;
+}
+
+.enquiryEyeIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.enquiries-table-wrapper {
+  overflow-x: auto; /* Enable horizontal scrolling if the table overflows its container */
+  max-width: 100%; /* Ensure the table does not exceed the width of its container */
+}
+
+.enquiryTableTD {
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Display ellipsis for overflow text */
+  max-width: 20rem;
+}
+
+.enquiryFilterDropdown {
+  margin-inline: 2rem;
+}
+
+.enquiryTableArrowIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: 0.5rem;
+}
+.enquiryFilterDropdown input {
+  margin-right: 1rem;
+}
+
+.enquiryEntryInputRow div {
+  flex: 0;
+  margin-block: 0.5rem;
+}
+
+.enquiryFilterDropdown a {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.enquiryTableDropDownButton {
+  width: 6rem;
+}
+
+.enquiryTableDropDownSortButton {
+  width: 15rem;
+}
+
+.enquiryTableDropDownButtonAdmin {
+  margin-inline: 0.5rem;
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent !important;
+  border-color: initial !important;
+  box-shadow: none !important;
+  color: black !important;
+  border-radius: 0.5rem !important;
+  border: 1px grey solid !important;
+  &:hover,
+  &:focus,
+  &.active {
+    background-color: transparent !important;
+    border-color: initial !important;
+    box-shadow: none !important;
+  }
+}
+.enquiryTableDropDownAdmin input {
+  margin-right: 0.5rem;
+}
+.enquirySearchField {
+  height: 2.25rem;
+  min-height: 2.25rem;
+  border: none;
+  padding-left: 0.4rem;
+  font-size: 1rem;
+  &:hover,
+  &:focus {
+    background-color: transparent !important;
+    border-color: initial !important;
+    box-shadow: none !important;
+  }
+}
+
+.enquirySearchFieldDiv {
+  margin-inline: 0.5rem;
+  width: 10rem;
+}
+
+.enquiryTableOptionsCol {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: max-content;
+  flex: 1 !important;
+}
+
+.enquiryTableOptionSingle {
+  cursor: pointer;
+  border: none !important;
+}
+
+.enquiryTableOptionsDiv {
+  margin: 0;
+  max-width: 2rem;
+  min-width: 2rem;
+  justify-content: end;
+  display: flex;
+  align-items: center;
+
+  border-radius: 0.2rem;
+  padding-inline: 0.2rem;
+  background-color: transparent !important;
+  color: black !important;
+  border: none;
+
+  &.dropdown-toggle::after {
+    display: none;
+  }
+}
+
+.enquiryTableOptionsDiv button {
+  border: 1px grey solid;
+  min-width: 2.25rem !important;
+  max-height: 2.25rem;
+  justify-content: center;
+}
+.enquirySearchFieldStack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px grey solid;
+  padding-inline: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.enquiryEntryInputStack > div {
+  margin-block: 1rem;
+}
+
+@media (max-width: 576px) {
+  .enquiries-table-wrapper {
+    overflow-x: auto; /* Enable horizontal scrolling on small screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .enquiryTableDropDownButtonAdmin {
+    width: 12rem;
+  }
+  .enquirySearchFieldDiv {
+    width: 12rem;
+  }
+}
+
+.enquiryTable {
+  white-space: nowrap;
+  border: 1px #ededee solid;
+}
+
+.enquiryTable th {
+  font-size: 0.8rem;
+}
+
+.enquiryTable td {
+  background-color: transparent;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Display ellipsis for overflow text */
+  width: max-content;
+  max-width: 10rem;
+  font-size: 0.8rem;
+}
+
+.enquiryShowOverFlow {
+  overflow: visible !important;
+}
+.enquiryTable tr {
+  background-color: transparent;
+}
+
+.enquiryTableDivAdmin {
+  padding: 0.5rem;
+  border: 1px grey solid;
+  margin-top: 1rem;
+  margin-inline: 1rem;
+  padding-inline: 2rem;
+  border-radius: 0.5rem;
+  min-height: 25rem;
+}
+
+.status {
+  border-radius: 0.5rem;
+  width: 5rem;
+  padding: 0.1rem;
+  padding-inline: 0.3rem;
+  margin: 0;
+  text-align: center;
+  margin-left: 0.3rem;
+  font-weight: 600;
+}
+
+/* Define styles for different enquiry statuses */
+.enquiry-status-open {
+  color: rgb(199, 0, 0) !important;
+  background-color: rgb(235, 177, 177) !important;
+}
+
+.enquiry-status-closed {
+  color: rgb(10, 58, 0) !important;
+  background-color: rgb(160, 216, 160) !important;
+}
+
+.order-status-in-progress {
+  color: rgb(41, 0, 58) !important;
+  background-color: rgb(195, 160, 216) !important;
+}
+
+.order-status-pending {
+  color: rgb(58, 49, 0) !important;
+  background-color: rgb(252, 236, 147) !important;
+}
+
+.order-status-50 {
+  color: rgb(0, 49, 58) !important;
+  background-color: rgb(160, 209, 216) !important;
+}

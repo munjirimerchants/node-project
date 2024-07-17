@@ -1,0 +1,112 @@
+.brickpriceDollar {
+    display: inline;
+    color: #003142;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.brickpriceUSD {
+    display: inline;
+    color: #003142;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.brickpriceThousand {
+    display: inline;
+    color: #436A77;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.brickpriceLead {
+    display: inline;
+    color: #436A77;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.brickpriceLine {
+    display: inline;
+    color: #BBC8D4;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.brickpriceWorking {
+    display: inline;
+    color: #436A77;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.brickpriceQtyTotal {
+    color: #436A77;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.brickpriceFormQty {
+    color: #0089A0;
+    height: 2.7rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;                    
+    background-color: #f9f9f9;
+    border-radius: 0%;
+    border: none;
+}
+
+.brickpriceFormTotal {
+    flex: 1;
+    color: #003142;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    background-color: rgba(0,0,0,0);
+    border-radius: 0%;
+    border: none;
+    border-right: 5px solid #F5F5F5;
+}
+
+.brickpriceFormUSD {
+    color: #436A77;
+    align-self: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    width: 2rem;
+}
+
+.brickpriceBtnOrderNow {
+    width: 7rem;
+    height: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    background: #0089A0;
+    border-radius: 2.375rem;
+    border: none;
+    padding: 0.6rem;
+}
+
+.brickpriceBtnAddCart {
+    width: 7rem;
+    height: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.375rem;
+    border: 1px solid #EBEBEB;
+    background: none;
+    color: #436A77;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+}

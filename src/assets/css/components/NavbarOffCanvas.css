@@ -1,0 +1,27 @@
+.navOffScreenBtn {
+  margin: 0;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  background-color: rgb(75, 198, 255);
+  border: none;
+}
+
+.navOffScreenBtn:hover {
+  background-color: rgb(143, 219, 255);
+}
+
+.navOffScreenBtn:active,
+.navOffScreenBtn.active,
+.navOffScreenBtn:focus {
+  background-color: rgb(
+    75,
+    198,
+    255
+  ) !important; /* Use !important to ensure overriding */
+}
+
+.navMenuIcon {
+  width: 3rem;
+  height: 2rem;
+  color: rgb(1, 0, 56);
+}

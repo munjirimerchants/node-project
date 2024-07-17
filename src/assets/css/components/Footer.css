@@ -1,0 +1,86 @@
+.footerBody {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.footer-nav {
+  color: #b4b4b4;
+  margin: 0;
+  padding: 0.2em;
+  font-size: 14px;
+  padding-left: 0;
+}
+
+.footerCard {
+  background-color: #052e3b;
+}
+
+.textStyle1 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.textStyle2 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+}
+.textStyle3 {
+  color: #b4b4b4;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  padding: 0;
+  line-height: 1em;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.padding-left {
+  padding-left: 5%;
+}
+
+.custom-button.btn-primary {
+  background-color: #17879b;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 3%;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 700 !important;
+  --bs-btn-border-color: none;
+}
+
+.custom-button.btn-primary:hover,
+.custom-button.btn-primary:active,
+.custom-button.btn-primary:visited {
+  background-color: #4aafc9;
+}
+
+.bottom-footer {
+  background-color: #17879b;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.myCol {
+  padding: 0;
+  margin: 1em;
+}
+
+.mini-btn {
+  max-width: 25px;
+  max-height: auto;
+}
+
+.micro-btn {
+  max-width: 18px;
+  height: auto;
+}

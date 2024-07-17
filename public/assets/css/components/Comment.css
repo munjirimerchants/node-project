@@ -1,0 +1,40 @@
+.commentInitialsPicture{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.commentInitialsCol{
+    max-width: content;
+    flex: 0;
+}
+
+.commentRow{
+    background-color: rgb(230, 255, 251);
+    margin-block: 1rem;
+    padding-block: 1rem;
+    border-radius: 1rem;
+}
+
+.adminColor{
+    background-color: rgb(0, 74, 83);
+    color:white;
+}
+.userColor{
+    background-color: rgb(180, 180, 180);
+   
+}
+
+.commentDate{
+    color: rgb(0, 116, 184);
+}
+
+.commentDisplayText{
+    margin: 0;
+    line-height: 1rem;
+}

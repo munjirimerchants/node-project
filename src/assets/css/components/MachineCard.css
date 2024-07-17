@@ -1,0 +1,182 @@
+/* FOR EASY ACCESS */
+
+/* HERE ARE ALL THE TEXT STYLES OF THIS COMPONENT */
+
+.bigHeadline {
+  color: #003142;
+  font-family: "Inter", sans-serif;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.tag {
+  width: max-content;
+  background-color: rgba(0, 128, 0, 0.178);
+  border-radius: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.tagNegative {
+  width: max-content;
+  background-color: rgba(128, 0, 0, 0.233);
+  border-radius: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.tagSize {
+  margin-bottom: 0;
+}
+
+/*to change the color fully of this you need to change it in the gradient!*/
+.machineText {
+  color: #003142;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* the gradient over mainText while collapsed */
+.gradientText {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /*change color here as well!                        vvvv */
+  background: linear-gradient(to top, transparent, #003142, #003142, #003142);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* availability text and number as id since I doubt it will be used anywhere else */
+.availText {
+  color: #003142;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.availNumber {
+  color: #003142;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 100;
+}
+
+/* HERE ARE ALL COMPONENTS THAT MIGHT NEED STYLE CHANGE */
+
+/*line under the big headline*/
+.underline-yellow {
+  color: #fac71e;
+  background-color: #fac71e;
+  width: 3.5rem;
+  height: 0.5rem;
+  opacity: 100%;
+}
+
+/*line seperating read more and availability*/
+.underline-grey {
+  color: #b9d6eb;
+  background-color: #b9d6eb;
+  width: 100%;
+  height: 0.1rem;
+  opacity: 100%;
+}
+
+/* readmore text */
+.readMore {
+  border: none;
+  background-color: transparent;
+  color: #1387ad;
+  font-weight: 600;
+}
+
+/* Box for number in availability */
+.greyBox {
+  background-color: #d9eefc;
+  padding-block: 0.2rem;
+  padding-inline: 0.7rem;
+  border-radius: 0.3rem;
+}
+
+/*How much the image can grow before it looks weird? */
+.imageMaxSize {
+  object-fit: contain;
+  height: 350px;
+  width: 350px;
+}
+
+.machineEnquireButton {
+  margin-top: 1rem;
+  display: flex;
+  width: 10.1875rem;
+  height: 2.3rem;
+  padding: 0.625rem;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 2.375rem;
+  border: none;
+  background: #0089a0;
+}
+
+.machineEnquireButton:hover {
+  background: #00a8c5 !important;
+}
+
+.machineEnquireButton:active {
+  background: #0089a0 !important;
+}
+/* the parent container of the card */
+.backgroundContainer {
+  background-color: rgb(255, 255, 255);
+  margin-block: 2rem;
+  padding-block: 1rem;
+}
+
+.machineCard {
+  border: none;
+  background-color: #f7fcff;
+  padding: 1rem;
+}
+/*****************************************/
+
+/* Probably don't need to be changed style wise */
+
+.imageAlignLeft {
+  justify-content: start;
+}
+
+.imageAlignRight {
+  justify-content: end;
+}
+
+@media only screen and (max-width: 768px) {
+  .imageAlignLeft {
+    justify-content: start;
+    margin-bottom: 3rem;
+  }
+
+  .imageAlignRight {
+    justify-content: start;
+    margin-bottom: 3rem;
+  }
+}
+
+.myBtn {
+  background-color: none;
+  cursor: pointer;
+}

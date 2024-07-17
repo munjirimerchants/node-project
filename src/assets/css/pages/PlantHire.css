@@ -1,0 +1,271 @@
+.plantTopImage {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  bottom: 5rem;
+  max-width: 75rem;
+}
+
+.plantTopImageContainer {
+  text-align: center;
+}
+
+.plantHireCentered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.plantSpecialHeader {
+  margin-top: 5rem;
+  max-width: 540px;
+  width: max-content;
+}
+
+.plantTopMarg {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.plantTitleHome1 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 900;
+  width: max-content;
+  line-height: 0.5rem;
+}
+
+.plantTitleHome2 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 7rem;
+  font-style: normal;
+  font-weight: 900;
+  width: max-content;
+}
+
+.plantTitleHome3 {
+  color: rgb(255, 111, 44);
+  font-family: "Inter", sans-serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 900;
+  width: max-content;
+  line-height: 0.5rem;
+}
+
+.machineScrollTag {
+  margin-top: 1rem;
+  display: flex;
+  width: 12.1875rem;
+  height: 2.3rem;
+  padding-block: 1.5rem;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 2.375rem;
+  border: none;
+  background: #c3ebf3;
+  color: #17261d;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.machineScrollTag:hover {
+  background: #7adcf0;
+  color: #17261d;
+}
+
+.machineScrollTagSoon {
+  margin-top: 1rem;
+  display: flex;
+  width: 12.1875rem;
+  height: 2.3rem;
+  padding-block: 1.5rem;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 2.375rem;
+  border: none;
+  background: #e3e4e4;
+  color: #17261d;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.machineScrollTagSoon:hover {
+  background: #8fa5a5;
+  color: #17261d;
+}
+
+.machineRow {
+  margin-left: 5rem;
+  justify-content: start;
+}
+
+.machineCol {
+  justify-content: start;
+  width: max-content;
+  flex-grow: unset;
+}
+
+#comingSoon {
+  margin-top: 1rem;
+  display: flex;
+  width: 12.1875rem;
+  height: 2.3rem;
+  padding: 0.625rem;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+
+  color: #012430;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.carouselStyle {
+  background-color: #e5f9fd;
+  margin: auto;
+}
+
+.plantBottomBannerImage {
+  max-height: 30rem;
+  border: 0.5rem solid white;
+}
+
+.machineComingSoonBtn {
+  min-width: 12rem;
+  max-width: 15rem;
+  border: none;
+}
+
+.machineComingSoonBtn:hover {
+  background-color: rgb(36, 171, 189);
+  border: none;
+}
+
+.machineListSmallContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-block: 2rem;
+}
+
+.plantEnquireButton {
+  border-radius: 2.375rem;
+  background: #0089a0;
+  width: 12rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding-block: 0.6rem;
+  margin-top: 0.5rem;
+  border: none;
+}
+
+.plantEnquireButton:hover {
+  background: #00acca !important;
+}
+.plantEnquireButton:active {
+  background: #0089a0 !important;
+}
+@media only screen and (max-width: 992px) {
+  .plantTopImage {
+    margin-top: 5rem;
+  }
+
+  .machineRow {
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .machineCol {
+    width: 100%;
+  }
+  .machineScrollTag {
+    width: 100%;
+  }
+  .specialHeader {
+    margin-top: 8rem;
+  }
+
+  .plantBottomBannerImage {
+    display: none;
+  }
+
+  .plantTopImage {
+    display: none;
+  }
+  .plantTitleHome1 {
+    font-size: 3rem;
+  }
+
+  .plantTitleHome2 {
+    font-size: 5rem;
+  }
+
+  .plantTitleHome3 {
+    font-size: 2rem;
+  }
+}
+
+.scrollTags {
+  justify-content: center;
+}
+
+@media only screen and (max-width: 520px) {
+  .scrollTags {
+    margin-top: 8rem;
+  }
+
+  .plantTopImage {
+    display: none;
+  }
+  .plantTitleHome1 {
+    font-size: 3rem;
+  }
+
+  .plantTitleHome2 {
+    font-size: 4rem;
+  }
+
+  .planTitleHome3 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .plantTitleHome1 {
+    font-size: 2rem;
+  }
+
+  .plantTitleHome2 {
+    font-size: 3rem;
+  }
+
+  .plantTitleHome3 {
+    font-size: 1.5rem;
+  }
+
+  @media only screen and (max-width: 370px) {
+    .plantTitleHome1 {
+      font-size: 1.8rem;
+    }
+
+    .plantTitleHome2 {
+      font-size: 2.8rem;
+    }
+
+    .plantTitleHome3 {
+      font-size: 1.5rem;
+    }
+  }
+}

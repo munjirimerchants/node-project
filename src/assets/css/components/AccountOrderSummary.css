@@ -1,0 +1,223 @@
+.accountOrderDiv {
+  padding-block: 1rem;
+}
+
+.accountOrderPaginationRow {
+  display: flex;
+  align-items: center;
+}
+
+.accountOrderPaginationCol {
+  width: max-content;
+  flex: 0;
+}
+
+.accountOrderArrowIcon {
+  min-width: 2rem;
+  max-width: 2rem;
+  min-height: 2rem;
+  max-height: 2rem;
+}
+
+.accountOrderGoToBox {
+  width: 6rem;
+}
+
+.accountOrderFilterButtonGroup {
+  background-color: #f9f9f9;
+  border: none;
+  border-radius: 1rem;
+  padding-inline: 0.5rem;
+}
+
+.accountOrderFilterButton {
+  color: #bbc8d4;
+  border: none;
+  background-color: unset;
+  font-weight: 525;
+  white-space: nowrap;
+}
+.accountOrderFilterButton:hover {
+  color: #ffffff !important;
+  background-color: #0089a0 !important;
+}
+
+.accountOrderFilterButton:focus,
+.accountOrderFilterButton:active {
+  color: #bbc8d4 !important;
+  background-color: unset !important;
+}
+
+.accountOrderFilterButtonSelected {
+  background-color: unset;
+  color: #0089a0;
+  border: none;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.accountOrderFilterButtonSelected:hover {
+  color: #ffffff !important;
+  background-color: #0089a0 !important;
+}
+
+.accountOrderFilterButtonSelected:focus,
+.accountOrderFilterButtonSelected:active {
+  color: #0089a0 !important;
+  background-color: unset !important;
+}
+
+.accountOrderCountSpan {
+  padding-left: 0.3rem;
+  white-space: nowrap;
+}
+
+.accountOrderGoToLabel {
+  white-space: nowrap;
+}
+
+.accountOrderBuyAgainCol {
+  align-content: center;
+  text-align: center;
+}
+
+.accountOrderProductDetailCol {
+  align-content: center;
+}
+
+.accountOrderBuyAgain {
+  background-color: #0089a0;
+  border: none;
+  border-radius: 1rem;
+  padding-inline: 2rem;
+  font-weight: 500;
+}
+
+.accountOrderBuyAgain:hover {
+  background-color: #0089a0;
+}
+
+.accountOrderBuyAgain:focus,
+.accountOrderBuyAgain:active {
+  background-color: #0089a0 !important;
+}
+
+.accountOrderItemName {
+  color: #436a77;
+}
+
+.accountOrderItemName2 {
+  color: #003142;
+}
+
+.accountOrderItemImageBackground {
+  background-color: #f3fafc;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.accountOrderItemImage {
+  height: 8rem;
+  width: 8rem;
+}
+
+.accountOrderProductRow {
+  padding-block: 1rem;
+  border-left: 1px #f5f5f5 solid;
+  border-right: 1px #f5f5f5 solid;
+  border-bottom: 1px #f5f5f5 solid;
+}
+
+.accountOrderStatus {
+  display: inline-block;
+  padding-inline: 1.25rem;
+  padding-block: 0.3rem;
+  border-radius: 1rem;
+}
+
+@media only screen and (max-width: 420px) {
+  .accountOrderFilterButton {
+    font-size: 0.8rem;
+  }
+  .accountOrderFilterButtonSelected {
+    font-size: 0.8rem;
+  }
+  .accountOrderFilterCol {
+    padding: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.accountOrderProductHeaderRow {
+  background-color: #eeeeee;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding-inline: 1rem;
+  padding-top: 1rem;
+}
+.accountOrderProductHeaderRow2 {
+  background-color: #eeeeee;
+  padding-inline: 1rem;
+  padding-bottom: 1rem;
+}
+
+.accountOrderProductOrderNumber {
+  color: #0089a0;
+}
+
+.accountOrderProductHeaderRow div {
+  color: #436a77;
+  white-space: nowrap;
+  padding: 0;
+}
+
+.accountOrderProductHeaderRow2 div {
+  color: #436a77;
+  white-space: nowrap;
+  padding: 0;
+}
+
+.accountOrderProductDataTitle {
+  color: #436a77;
+}
+
+.accountOrderProductData {
+  color: #003142;
+}
+
+.accountOrderProductData {
+  color: #003142;
+}
+
+.accountOrderFooter {
+  padding-block: 1rem;
+  border-left: 1px #f5f5f5 solid;
+  border-right: 1px #f5f5f5 solid;
+  border-bottom: 1px #f5f5f5 solid;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding-inline: 1rem;
+}
+
+@media only screen and (min-width: 420px) and (max-width: 450px) {
+  .accountOrderFilterButton {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+  .accountOrderFilterButtonSelected {
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+  .accountOrderFilterCol {
+    padding: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+}

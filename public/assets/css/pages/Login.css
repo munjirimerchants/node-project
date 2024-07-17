@@ -1,0 +1,119 @@
+.loginErrorMessage {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.loginBannerImage {
+  background-image: url("../../images/logreg_banner.png");
+
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-width: 100%;
+  height: 30rem;
+}
+
+.loginFormContainer {
+  width: 30.625rem;
+  background-color: #0089a0;
+  border-radius: 1.0625rem;
+  border-style: solid;
+  border-color: #0089a0;
+  border-bottom-width: 3rem;
+}
+
+.loginInnerFormContainer {
+  background: #fff;
+  border-radius: 1.0625rem;
+  height: 100%;
+  width: 100%;
+}
+
+.loginFormHeading {
+  color: #0089a0;
+  font-family: Inter;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.loginFormSubheading {
+  color: #436a77;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.loginFormText {
+  color: #436a77;
+  font-family: Open Sans;
+  font-size: 0.75rem;
+}
+
+.loginFieldBox {
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.1875rem;
+  border: 1px solid #ebebeb;
+  background: #fff;
+}
+
+.loginTextHighlight {
+  color: #0089a0;
+  font-size: 0.75rem;
+}
+
+.loginLinkStyled {
+  text-decoration: none;
+  color: #436a77;
+  font-size: 0.75rem;
+}
+
+.loginButton {
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.625rem;
+  background: #003142;
+}
+
+.loginAsterisk {
+  color: red;
+}
+
+/* Target the form field with error */
+.loginFieldBox.has-danger {
+  border: 1px solid red;
+}
+
+/* Target the error message */
+.loginErrorMessage {
+  color: red;
+}
+
+.rememberMeInput {
+  margin-right: 0.5rem;
+}
+
+.rememberMeLabel {
+  white-space: nowrap;
+}
+
+.loginField {
+  white-space: nowrap;
+  align-self: end;
+}
+
+.loginFieldCol {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 400px) {
+  .loginField {
+    align-self: start;
+  }
+}

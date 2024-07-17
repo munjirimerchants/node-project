@@ -1,0 +1,125 @@
+.bannerTextThinWhite {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.bannerTextThickYellow {
+  color: #F8AD4E;
+  font-family: 'Inter', sans-serif;
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.bannerTextDescription {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bannerCardImg {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  min-height: 10rem;
+  border-radius: 0.625rem;
+}
+
+.bannerCardBtnStyle {
+  display: flex;
+  width: 12.1875rem;
+  height: 2.875rem;
+  padding: 0.625rem;
+  font-family: 'Inter', sans-serif;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 2.375rem;
+  border: none;
+  background: #0089A0;
+  white-space: nowrap;
+  padding-block: 1.3rem;
+}
+
+.gradient-overlay {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.58rem;
+    background: linear-gradient(181deg, #003142 -40.56%, rgba(255, 255, 255, 0.00) 106.47%);
+    mix-blend-mode: multiply;
+  }
+}
+
+@media (max-width: 1400px) {
+
+  .bannerTextThinWhite {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .bannerTextThickYellow {
+    color: #F8AD4E;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+  }
+
+  .bannerTextDescription {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .bannerCardBtnStyle {
+ 
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    width: 9.1875rem;
+    height: 1.875rem;
+    border-radius: 2.375rem;
+    border: none;
+    background: #0089A0;
+  }
+
+
+
+  @media only screen and (max-width: 360px) {
+    .bannerCardBtnStyle {
+      width: 8.1875rem;
+      height: 2rem;
+      font-size: 0.8rem;
+ 
+    }
+
+    .bannerTextThickYellow {
+      margin-bottom: 0.2rem;
+      font-size: 1.5rem;
+    }
+
+    .bannerTextThinWhite {
+      margin-bottom: 0.2rem;
+      font-size: 1.5rem;
+    }
+
+  }
+
+}

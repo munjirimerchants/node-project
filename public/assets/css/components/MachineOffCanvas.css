@@ -1,0 +1,15 @@
+.offScreenBtn{
+background: #ff9d1c;
+border:none;
+color:black;
+margin-bottom: 3rem;
+min-width: 12rem;
+max-width: 15rem;
+   
+}
+
+.offScreenBtn:hover {
+  background-color: #ffce8e;
+  color: black;
+}
+

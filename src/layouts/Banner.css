@@ -1,0 +1,16 @@
+/* Home.css or your custom CSS file */
+.banner-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1; /* Set z-index to be behind the navbar */
+}
+
+.banner-image {
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-width: 100%;
+}

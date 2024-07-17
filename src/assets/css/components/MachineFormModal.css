@@ -1,0 +1,110 @@
+.machineModalStyleHeader{
+    background-color: rgb(17, 68, 92);
+    justify-content: space-between;
+    margin-bottom: 0;
+    border: 0;
+    padding-bottom: 0.5rem;
+}
+
+.machineModalStyleBody{
+    padding-block: 0.5rem;
+}
+.machineModalStyleHeader > .modal-title{
+    width: 100%;
+}
+
+.machineModalStyleHeader > .btn-close{
+    align-self: start;
+    margin-left: 0;
+}
+
+.machineEnquireNowHeader{
+    color:white;
+    font-size: 1.5rem;
+}
+
+.machineDropDownTitle{
+    color: rgb(38, 177, 219);
+    font-size: 1rem;
+    margin: 0;
+}
+
+.machineDropDownDiv{
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.machineDropDown{
+
+    color: rgb(0, 0, 0);
+   border: none;
+   border-radius: 0.2rem;
+
+}
+
+.machineModalRow{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.machineBodyHeader{
+   padding-inline: 1.75rem;
+   padding-block: 0.5rem;
+   margin: 0;
+   font-size: 0.8rem;
+   font-weight: 600;
+
+}
+
+.machineBodyHeaderDiv{
+    background-color: rgb(8, 157, 184);
+    color:white;
+}
+
+.availTextModal{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.greyBoxModal{
+    background-color: #096777;
+    padding-block: 0.2rem;
+    padding-inline: 0.7rem;
+    border-radius: 0.3rem;
+}
+
+.availNumberModal{
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.0rem;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.availStackModal {
+    margin-top: 1rem;
+}
+
+.machineImageModal{
+    align-self: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .imageModal{
+         justify-content:center;
+         display: flex;
+         align-items: center;
+    }
+
+    
+  }
+
+
+

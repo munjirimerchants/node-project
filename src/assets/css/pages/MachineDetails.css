@@ -1,0 +1,148 @@
+.machineDetails-titleContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.machineDetails-titleContent {
+  text-align: right;
+}
+
+.machineDetails-titleHome1 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 4vw;
+  font-style: normal;
+  font-weight: 900;
+  margin: 0;
+}
+
+.machineDetails-specialHeader {
+  margin-top: 5rem;
+  width: max-content;
+  margin-bottom: 5rem;
+}
+
+.machineDetails-titleHome2 {
+  color: rgb(255, 234, 44);
+  font-family: "Inter", sans-serif;
+  font-size: 2.5vw;
+  font-style: normal;
+  font-weight: 200;
+  margin: 0;
+}
+
+.bannerImageMachineDetails {
+  position: relative;
+  background-image: url("../../images/machine_details_banner.png");
+  background-repeat: repeat;
+  background-size: fill;
+  background-position: center top;
+  min-width: 100%;
+  height: 30rem;
+}
+
+.machineDetails-breadCrumbs {
+  margin: 0;
+}
+
+.machineDetails-backToButtonContainer {
+  padding-inline: 0;
+  padding-block: 1rem;
+}
+
+.machineDetails-backToButton {
+  background-color: unset;
+  color: rgb(4, 50, 58);
+  font-weight: 600;
+  border: unset;
+  padding: 0;
+}
+.machineDetails-backToButton:hover {
+  color: #0051ff;
+  background-color: unset;
+}
+
+.machineDetails-backToButton {
+  color: #0051ff;
+  background-color: unset;
+}
+
+.machineDetails-underline-grey {
+  color: #b9d6eb;
+  background-color: #b9d6eb;
+  width: 90%;
+  height: 0.1rem;
+  opacity: 100%;
+}
+.machineDetails-header {
+  color: #049db5;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-block: 1rem;
+  margin-bottom: 3rem;
+}
+
+.machineDetails-overViewContainer p {
+  color: #3e4b4d;
+  line-height: 1.2rem;
+  font-size: 1.1rem;
+}
+
+.machineDetails-arrow {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  margin-right: 0.5rem;
+}
+
+.machineDetails-image1 {
+  object-fit: contain;
+}
+
+.machineDetails-specialHeader {
+  width: 100%;
+}
+.machineDetails-titleCols {
+  width: 100%;
+}
+@media only screen and (max-width: 520px) {
+  .machineDetails-titleHome1 {
+    font-size: 5.5vw;
+    white-space: wrap !important;
+  }
+  .machineDetails-titleHome2 {
+    font-size: 4vw;
+    white-space: wrap !important;
+  }
+  .machineDetails-breadCrumbs {
+    padding-inline: 0.4rem;
+  }
+  .machineDetails-backToButtonContainer {
+    padding-inline: 0.4rem;
+  }
+}
+
+@media only screen and (min-width: 520px) and (max-width: 768px) {
+  .machineDetails-breadCrumbs {
+    padding-inline: 1rem;
+  }
+
+  .machineDetails-backToButtonContainer {
+    padding-inline: 1rem;
+  }
+
+  .machineDetails-titleHome1 {
+    font-size: 5.5vw;
+  }
+  .machineDetails-titleHome2 {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .machineDetails-titleHome1 {
+    font-size: 3.5rem;
+  }
+  .machineDetails-titleHome2 {
+    font-size: 2.5rem;
+  }
+}

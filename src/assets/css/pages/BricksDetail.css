@@ -1,0 +1,157 @@
+@font-face {
+  font-family: "HomepageBaukasten-Bold";
+  src: url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.eot");
+  src: url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.svg#HomepageBaukasten-Bold")
+      format("svg");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
+
+.brickDetails-titleContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.brickDetails-titleContent {
+  text-align: start;
+}
+
+.bricksdetailBannerImage {
+  background-image: url("../../images/bricks_detail_banner.png");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-width: 100%;
+  max-height: 22.5rem;
+}
+
+.bricksdetailTitleHome1 {
+  color: #fff;
+  text-align: start;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.bricksdetailTitleHome2 {
+  color: #e7b41c;
+  font-family: Inter;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.bricksdetailTitleHome3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: " > ";
+}
+
+.bricksdetailBorderDivider {
+  color: #ffbe32;
+  background-color: #ffbe32;
+  width: 4rem;
+  height: 0.7rem;
+  opacity: 1;
+}
+
+.bricksdetailHeading1 {
+  color: #003142;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.bricksdetailHeading2 {
+  color: #0089a0;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bricksdetailNormalText {
+  color: #436a77;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bricksdetailBenefitTitle {
+  color: #003142;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+}
+.bricksDetails-bannerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24rem;
+}
+
+.bricksdetailImageDiv {
+  padding: 1rem;
+  background-color: #f3fafc;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.bricksdetailImageCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 3px #e6f3f8 solid;
+  padding-right: 0;
+}
+.bricksdetailImage {
+  object-fit: fill;
+  height: 350px;
+  width: 350px;
+  border-radius: 1rem;
+}
+@media only screen and (max-width: 576px) {
+  .cardDimension {
+    display: none;
+  }
+  .bricksPillRow {
+    justify-content: center;
+  }
+
+  .bricksPillColsEnquire {
+    justify-content: center;
+  }
+
+  .bricksdetailTitleHome1 {
+    font-size: 1rem;
+  }
+  .bricksdetailTitleHome2 {
+    font-size: 2.5rem;
+  }
+  .bricksdetailTitleHome3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .bricksdetailImageCol {
+    border-right: none !important;
+  }
+}

@@ -1,0 +1,45 @@
+.shoppingCartItemProductDiv {
+  max-width: 50rem;
+  display: flex;
+}
+
+.shoppingCartItemImageBackground {
+  padding: 0;
+  border-radius: 0.625rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.shoppingCartItemImage {
+  border-radius: 0.625rem;
+  height: 14rem;
+  object-fit: fill;
+  width: 16rem;
+  background-color: #f3fafc;
+  padding: 1rem;
+}
+
+.shoppingcartItemName {
+  color: #436a77;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.shoppingcartItemName2 {
+  color: #003142;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.shoppingCartProductInfoX{
+  width: 25px;
+  height: 25px;
+  margin: 0.5rem;
+
+}
+.shoppingCartProductInfoXCol{
+  flex:0;
+}

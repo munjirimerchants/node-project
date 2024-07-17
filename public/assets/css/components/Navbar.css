@@ -1,0 +1,398 @@
+.navbarTop {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-collapse {
+  margin-top: 4rem;
+  padding-block: 0.5rem;
+  padding-top: 0;
+  justify-content: end;
+  display: flex;
+}
+
+.collapseDiv {
+  padding: 0;
+}
+
+.textNav div {
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 700;
+}
+
+.activeLink {
+  text-decoration: underline #e7b41c 0.25rem !important;
+  text-underline-offset: 0.3em;
+}
+
+.textNav {
+  align-items: center;
+}
+
+.textNav a {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.textNav > a {
+  text-decoration: none;
+}
+
+.navbarOffCanvas {
+  margin: 0;
+}
+.navDropDown {
+  width: max-content;
+  padding-inline: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.navBellIcon {
+  margin-inline: 1.5rem;
+  align-self: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: rgb(255, 208, 0);
+}
+
+.navbarUserIcon {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.navDropDownIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  align-self: center;
+}
+
+.navbarLogoutIcon {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.navbarLinkInOffCanvas {
+  margin-top: 1rem;
+  display: flex;
+  width: 100%;
+  height: 2.3rem;
+  padding-block: 1.5rem;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: none;
+  background: #44c4c4;
+  color: #17261d;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.navbarLinkInOffCanvas:hover {
+  background: #85ebff;
+  color: #17261d;
+}
+
+.navbarLinkInOffCanvas:active,
+.navbarLinkInOffCanvas:focus {
+  background: #85ebff !important;
+  color: #17261d !important;
+}
+
+.navbarProfileInOffCanvas {
+  margin-top: 1rem;
+  display: flex;
+  width: 100%;
+  height: 2.3rem;
+  padding-block: 1.5rem;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: none;
+  background: #31cf6e;
+  color: #17261d;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.navbarProfileInOffCanvas:hover {
+  background: #72ffa8;
+  color: #17261d;
+}
+
+.navbarProfileInOffCanvas:active,
+.navbarProfileInOffCanvas:focus {
+  background: #72ffa8 !important;
+  color: #17261d !important;
+}
+
+.navbarLogoutInOffCanvas {
+  margin-top: 1rem;
+  display: flex;
+  width: 100%;
+  height: 2.3rem;
+  padding-block: 1.5rem;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: none;
+  background: #ffc117;
+  color: #17261d;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.navbarButtonInOffCanvas {
+  margin: auto;
+  border-radius: 0;
+  display: flex;
+  width: 90%;
+  height: 2.3rem;
+  padding-block: 1.5rem;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: solid 2px white;
+  color: #17261d;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.navbarProfileButton {
+  background: #0089a0;
+}
+.navbarLogoutButton {
+  background: #0089a0;
+}
+.navbarLoginButton {
+  background: #0089a0;
+}
+
+.navbarButtonInOffCanvas:hover,
+.navbarButtonInOffCanvas:focus,
+.navbarButtonInOffCanvas:active,
+.navbarButtonInOffCanvas.show {
+  background-color: #1bb7d3;
+  color: black;
+  border-color: white;
+}
+
+.navDropDownDiv {
+  border: solid 2px rgb(255, 255, 255);
+  padding: 1rem;
+  background-color: rgba(0, 53, 61, 0.774);
+}
+
+.navDropDownDiv a {
+  text-decoration: none;
+}
+
+.navDropDownButton {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+  overflow: hidden;
+}
+
+.navDropDownButton:hover,
+.navDropDownButton:focus,
+.navDropDownButton:active,
+.navDropDownButton.show {
+  background-color: unset !important;
+}
+
+.navbarLogoutInOffCanvas:hover {
+  background: #ffdd81;
+  color: #17261d;
+}
+
+.navbarLogoutInOffCanvas:active,
+.navbarLogoutInOffCanvas:focus {
+  background: #ffdd81 !important;
+  color: #17261d !important;
+}
+
+.navbarLinkDivOffCanvas a {
+  text-decoration: none;
+}
+
+.navSmallScreenDiv {
+  display: flex;
+}
+
+.shoppingcartIcon {
+  margin-inline: 1.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1400px) {
+  .textNav div {
+    padding-block: 1rem;
+    padding-right: 0.5rem !important;
+    padding-left: 1.5rem !important;
+  }
+  .textNav a:first-child {
+    border-top: 0.1rem solid rgb(255, 255, 255);
+  }
+  .textNav a {
+    border-bottom: 0.1rem solid rgb(255, 255, 255);
+  }
+
+  .textNav > a:nth-child(1n) {
+    background-color: rgba(6, 55, 68, 0.548);
+  }
+  .textNav > a:nth-child(2n) {
+    background-color: rgba(15, 114, 141, 0.514);
+  }
+
+  .navbar-collapse {
+    margin-top: 0;
+  }
+
+  .nav-holder {
+    padding: 0.2rem;
+  }
+  .collapseDiv {
+    margin: 0;
+    background-color: rgba(7, 64, 80, 0.897);
+    text-decoration: none;
+    max-width: max-content;
+  }
+
+  .navDropDownDiv {
+    position: absolute;
+    left: -4rem !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-collapse {
+    position: relative;
+    bottom: 1.7rem;
+    left: 0.2rem;
+  }
+
+  .textNav {
+    text-align: right;
+  }
+
+  .collapseDiv {
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .buttonMargin {
+    margin-right: 3.5rem;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .navDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navSmallScreenDiv {
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .navLogoSmall {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .navDropDown {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .textNav div {
+    padding-block: 1rem;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+  }
+
+  .navbar-collapse {
+    position: relative;
+    bottom: 1.1rem;
+  }
+
+  .navbar-collapse {
+    margin-top: 1rem;
+  }
+  .collapseButton {
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  .collapseDiv {
+    text-align: center;
+  }
+
+  .textNav {
+    text-align: center;
+  }
+  .buttonDiv {
+    margin: auto;
+  }
+}
+
+.collapseButton {
+  background-color: rgba(79, 216, 226, 0.699);
+  border-radius: 0;
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 white;
+}
+
+@media (min-width: 1400px) {
+  .navbar-expand-xxl .navDropDownDiv.dropdown-menu {
+    left: -3.6rem;
+  }
+}
+
+.navToastHolder {
+  position: fixed;
+  top: 7.5%;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 9999;
+}
+
+.navToastBody {
+  font-weight: 600;
+  color: #17261d;
+}
+
+.navToastHeader {
+  font-weight: 600;
+  color: #17261d;
+}
+
+.navToastCartItem {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #0089a0;
+}

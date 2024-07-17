@@ -1,0 +1,34 @@
+.machineBreadcrumb-textStyle {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.machineBreadcrumb.breadcrumb-item + .breadcrumb-item::before {
+  color: white;
+  font-weight: 600;
+}
+
+.machineBreadcrumb.breadcrumb-item > a {
+  text-decoration: none;
+  color: rgb(255, 234, 44);
+  font-weight: 600;
+}
+
+.machineBreadcrumb.breadcrumb-item.active {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.adminBreadcrumb {
+  color: #6d7d8b;
+}
+
+.adminBreadcrumb > ol {
+  margin: 0;
+}
+
+.adminBreadcrumb.breadcrumb-item > a {
+  color: #6d7d8b;
+  text-decoration: none;
+}

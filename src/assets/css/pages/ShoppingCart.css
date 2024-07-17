@@ -1,0 +1,139 @@
+.shoppingcartBannerImage {
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-width: 100%;
+  height: 19rem;
+}
+
+.shoppingcartTitle1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.shoppingcartTitle2 {
+  color: #e7b41c;
+  font-family: Inter;
+  font-size: 2.18rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.shoppingcartText {
+  color: #002d3d;
+  font-family: Inter;
+  font-size: 1.63281rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.shoppingcartLine {
+  height: 0.3rem;
+  background: #f3fafc;
+}
+
+.shoppingcartSummaryHead {
+  color: #002d3d;
+  font-family: Inter;
+  font-size: 1.63281rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.shoppingcartSummaryCol {
+  padding-left: 2rem;
+}
+.shoppingcartSmalltext {
+  color: #003142;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.shoppingcartDeliveryHead {
+  color: #003142;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.shoppingcartDeliveryUSD {
+  color: #436a77;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.shoppingcartSmallUSD {
+  color: #436a77;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.shoppingcartRecommendations {
+  color: #003142;
+  font-family: Inter;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.shoppingcartMainDiv {
+  margin-top: 5rem;
+}
+
+.shoppingcartOrderAllButton {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+  background-color: #0089a0;
+  border: none;
+  min-width: 100%;
+}
+
+.shoppingcartBagIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: rgb(255, 208, 0);
+}
+
+.shoppingcartOrderAllButton:hover {
+  background-color: #02a2be;
+}
+
+.shoppingcartEmptyText {
+  text-align: center;
+  margin-block: 5rem;
+  font-weight: 600;
+  color: #003142;
+}
+
+@media only screen and (max-width: 574px) {
+  .shoppingcartTitle1 {
+    font-size: 3rem;
+  }
+  .shoppingcartTitle2 {
+    font-size: 1.8rem;
+  }
+
+  .shoppingcartMainDiv {
+    margin-top: 7rem;
+  }
+}

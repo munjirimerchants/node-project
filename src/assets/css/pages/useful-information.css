@@ -1,0 +1,202 @@
+.usefulinformationBannerImage {
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-width: 100%;
+  height: 19rem;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.usedfulinfoContainment {
+  background-color: #0089a0;
+  height: 15rem;
+  align-items: stretch;
+  border-radius: 15px;
+}
+
+.usefulinfoCardTitle {
+  color: #fff;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+.usefulinfoLinkText {
+  text-decoration: none;
+}
+
+.usefulinfoBlackText {
+  color: black;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 200;
+  text-align: left;
+}
+
+.usefulinfoTitleText {
+  color: #003142;
+}
+
+.usefulinfoYellowLine {
+  background-color: #e7b41c;
+  color: #e7b41c;
+  width: 60px;
+  height: 6px;
+  opacity: 1;
+}
+
+.usefulinfoColumnText {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.usefulinfoCardImg {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+
+.usefulinfoCardImgOverlay {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.usefulinfoCardText2 {
+  text-align: end;
+  flex-grow: 1;
+}
+
+.usefulinfoCardText1 {
+  text-align: end;
+}
+
+.usefulinfoBtnColor {
+  opacity: "0.9";
+  background-color: gray;
+  color: white;
+  width: 90px;
+}
+
+.usefulinfoTextpara1 {
+  color: #003142;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.usefulBackgroundColour {
+  background-color: #0089a0;
+  border-radius: 0.5rem;
+  padding: 0;
+  width: 75%;
+}
+
+.usefulCol {
+  padding: 0;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.usefulCol2 {
+  padding: 0;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.usefulRow {
+  display: flex;
+  margin: 0;
+}
+
+.usefulText {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.usefulSubtext {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.usefulImage {
+  margin: 0;
+  padding-block: 1rem;
+}
+
+.usefulinfoLine {
+  background-color: white;
+  width: 0.3rem;
+  opacity: unset;
+  transform: rotate(9deg);
+  padding: 0;
+}
+
+.usefulinformationTitleHome {
+  color: #fff;
+  font-family: Inter;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.usefulPadding {
+  padding-block: 4rem;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+  .usefulinformationTitleHome {
+    font-size: 2.7rem;
+  }
+  .usefulPadding {
+    padding-block: 4.6rem;
+  }
+}
+
+@media only screen and (min-width: 574px) and (max-width: 767px) {
+  .usefulinformationTitleHome {
+    font-size: 2rem;
+  }
+  .usefulPadding {
+    padding-block: 4.6rem;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 573px) {
+  .usefulinformationTitleHome {
+    font-size: 2rem;
+  }
+  .usefulPadding {
+    padding-block: 4.8rem;
+  }
+  .usefulinfoLine {
+    background-color: unset;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  .usefulinformationTitleHome {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .usefulinfoLine {
+    background-color: unset;
+  }
+  .usefulPadding {
+    padding-block: 4rem;
+  }
+}

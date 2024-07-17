@@ -1,0 +1,259 @@
+.aboutusTitleHome1 {
+  color: #e7b41c;
+  font-family: Inter;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.aboutusTitleHome2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aboutusCarouselStyle {
+  background-color: #fff;
+  margin: auto;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.aboutusBigImage {
+  object-fit: cover;
+  height: 28rem;
+  flex-shrink: 0;
+}
+
+.aboutUsBrowseMore {
+  color: #003142;
+  font-weight: 500;
+  justify-content: start;
+  align-items: center;
+}
+
+.aboutusContainment {
+  max-width: 316px;
+  max-height: 470px;
+  justify-content: center;
+}
+
+.aboutusPlantCol {
+  padding: 1rem;
+}
+
+.aboutusCol2 {
+  padding-left: 0;
+  padding-right: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.aboutusBackgroundBlue {
+  background-color: #e6f3f8;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutusHeight {
+  padding-inline: 1rem;
+  padding-top: 1rem;
+  flex: 0 0 auto; /* Make the header take its natural height */
+}
+
+.aboutusHeight2 {
+  flex: 0 0 auto; /* Make the header take its natural height */
+  padding-block: 1rem;
+}
+
+.aboutusHeightRemaining {
+  display: flex;
+  align-items: center;
+  padding-inline: 1rem;
+  flex: 1 1 auto; /* Make the inner container take up remaining space */
+}
+
+.aboutusSectionLine {
+  background: #e6f3f8;
+  margin: 0;
+  width: 100%;
+}
+
+.aboutusYellowLine {
+  background-color: #e7b41c;
+  color: #e7b41c;
+  width: 100px;
+  height: 8px;
+  opacity: 1;
+}
+
+/* about us list items */
+.aboutusFigureCaptionLine {
+  background: #0089a0;
+  height: 0.1rem;
+  width: 80%;
+}
+
+.aboutusCardText3 {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  justify-content: space-between;
+}
+
+.aboutusCardBackgroundColor1 {
+  border-radius: 0.625rem;
+  background: #0089a0;
+}
+
+.aboutusCardSubTitle {
+  color: #e7b41c;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.aboutusCardTitle {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 86.523%; /* 1.62231rem */
+}
+.aboutusCardText1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aboutusCardBackgroundColor2 {
+  border-radius: 0.625rem;
+  background: #003142;
+}
+
+.aboutusCardText2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.aboutusOurClient {
+  color: #0089a0;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.aboutusHowWeTrust {
+  color: #003142;
+  font-family: Inter;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+/* How We Work */
+.aboutusSectionTitle {
+  color: #003142;
+  font-family: Inter;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 1rem;
+}
+
+.aboutusLinkStyle {
+  color: #003142;
+  text-decoration: unset;
+  font-weight: 500;
+}
+
+.aboutusSectionTitleUnderline {
+  text-decoration: underline;
+  text-decoration-color: #ffbe32;
+  text-decoration-thickness: 0.3125rem;
+  text-underline-offset: 1rem;
+}
+
+.aboutusSectionDesc {
+  color: #003142;
+  font-family: Inter;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aboutusHowText2 {
+  color: #436a77;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aboutusHowText3 {
+  color: #0089a0;
+  font-family: Inter;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.aboutusHowTextLink {
+  color: #000;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media only screen and (min-width: 420px) and (max-width: 573px) {
+}
+@media only screen and (max-width: 992px) {
+  .aboutusCol2 {
+    padding-inline: 0;
+    padding-bottom: 0.2rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .aboutusTitleHome1 {
+    color: #e7b41c;
+    font-family: Inter;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  .aboutusTitleHome2 {
+    color: #fff;
+    font-family: Inter;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "HomepageBaukasten-Bold";
+  src: url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.eot");
+  src: url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.svg#HomepageBaukasten-Bold")
+      format("svg");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap");
+
+.heading1Blue {
+  color: #003142;
+  font-family: "Inter", sans-serif;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.heading2Blue {
+  color: #0089a0;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.heading3Blue {
+  color: #0089a0;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.darkBlueText {
+  color: #003142;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.btnStyle {
+  border-radius: 0.125rem;
+  background: rgba(230, 243, 248, 0.3);
+  width: 5rem;
+  height: 2rem;
+  flex-shrink: 0;
+}
+
+.titleHome {
+  text-align: center;
+  color: #fff;
+  font-family: HomepageBaukasten-Bold;
+  font-size: 4.375rem;
+  font-style: normal;
+  line-height: normal;
+}
+
+.titleUnderline {
+  text-decoration-color: #0089a0;
+  text-underline-offset: 0.75rem;
+  mix-blend-mode: screen;
+  text-decoration-thickness: 0.5rem;
+}
+
+.yellowLineInYellowBox {
+  color: #fffffe;
+  background-color: #fffaee;
+  width: 7.5rem;
+  height: 0.5rem;
+}
+
+.homeEnquireButtonYellowBox {
+  border-radius: 2.375rem;
+  background: #0089a0;
+  width: 9.0625rem;
+}
+
+#homeEnquireButtonDiv {
+  display: flex;
+  justify-content: end;
+  align-content: center;
+}
+
+#homeAreasWeCover {
+  color: #003142;
+  text-align: center;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.homeEnquiryLowerText {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.homeAreasUnderline {
+  text-decoration-color: #ffbe32;
+  text-underline-offset: 1rem;
+  text-decoration-thickness: 0.3125rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .homeHeaderDiv{
+    margin-top: 5rem;
+  }
+  .titleHome {
+    text-align: center;
+    color: #fff;
+    font-family: HomepageBaukasten-Bold;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  @media only screen and (max-width: 420px) {
+    .yellowLineInYellowBox {
+      width: 5.5rem;
+    }
+
+    .homeEnquireButtonYellowBox {
+      width: 9.0625rem;
+      text-wrap: nowrap;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    .yellowLineDiv {
+      display: none;
+    }
+
+    #homeYellowBoxRow {
+      display: flex;
+      justify-content: center;
+    }
+
+    #homeEnquireButtonDiv {
+      display: flex;
+      justify-content: center;
+    }
+
+    #homeAreasWeCover {
+      font-size: 1.5rem;
+    }
+  }
+}

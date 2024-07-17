@@ -1,0 +1,96 @@
+.adminDetailsCol1 {
+  display: flex;
+  justify-content: center;
+}
+
+.adminPictureContainer {
+  background-color: #f3fafc;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 1.25rem;
+  align-content: center;
+}
+
+.adminPictureWrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.adminDetailsImage {
+  height: 15rem;
+  width: 15rem;
+}
+
+.adminUnique {
+  font-size: 1.25rem !important;
+  font-weight: bold;
+}
+
+.adminEnquiryNumber {
+  color: #0089a0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.adminEnquiryTitle2 {
+  color: #436a77;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.adminEnquiryTitle {
+  color: #436a77;
+  font-size: 0.85rem;
+}
+
+.adminCommentText {
+  color: #436a77;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.adminEnquiryName {
+  color: #003142;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.adminCommentDate {
+  font-size: 0.5rem;
+}
+
+.adminLine {
+  height: 0.2rem;
+  width: 100%;
+  background-color: #eff3f9;
+  margin-block: 1rem;
+}
+
+.adminDropdown.dropdown-menu.show {
+  background-color: #005574;
+  border: black;
+}
+
+.adminDropdownItem {
+  color: #ffffff;
+}
+
+.adminDropdownButton {
+  border-radius: 1.2rem;
+}
+
+.adminInitialOrderVal {
+  width: fit-content;
+  padding-inline: 1rem;
+  padding-block: 0.4rem;
+  margin-block: 0.5rem;
+}
+
+.adminHeading {
+  padding: 0;
+}
+
+.adminMargin {
+  margin: 0;
+}

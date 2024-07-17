@@ -1,0 +1,9 @@
+.table.colh1 {
+    color: #003142;
+    background-color: #E7F4F8;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    width: max-content;
+}

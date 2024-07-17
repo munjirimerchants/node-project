@@ -1,0 +1,268 @@
+.profileTitleHome1 {
+  color: #0089a0;
+  font-family: Inter;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.profileTitleHome2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.profileText {
+  color: #002d3d;
+  font-family: Inter;
+  font-size: 1.63281rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.profileEditText {
+  color: #0089a0;
+  font-family: Open Sans;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 95%; /* 0.77188rem */
+  cursor: pointer;
+  width: max-content;
+}
+
+.profileDeliveryInfoText {
+  color: #003142;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.profileOptional {
+  color: #436a77;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.profileLine {
+  height: 0.07rem;
+  background: #e6f3f8;
+}
+
+.profileFormEdit {
+  background-color: rgb(194, 240, 253);
+  padding: 1rem;
+}
+
+.profileForm * .col {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.profileForm p {
+  font-weight: 600;
+}
+
+.profileDisplayText {
+  background-color: rgb(233, 253, 251);
+  padding: 0.3rem;
+  height: 2rem;
+}
+
+.profileTabs {
+  width: auto;
+  height: 2rem;
+  border-radius: 0.125rem;
+  background: #003142;
+}
+
+.profileTabsActive {
+  border-radius: 0.125rem;
+  background: #0089a0;
+}
+
+.profilePicture {
+  width: 4.4rem;
+  height: 4.4rem;
+  border-radius: 0.625rem;
+  background: #003142;
+}
+
+.profileSmallText {
+  color: #436a77;
+  font-family: Open Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 95%; /* 0.7125rem */
+  margin-bottom: 0.2rem;
+}
+
+.profileFieldBox {
+  width: 100%;
+  height: 2.8125rem;
+  border-radius: 0.1875rem;
+  background: #fafafa;
+}
+
+.profilePlusDeliveryStack {
+  display: flex;
+  align-items: center;
+}
+
+.profilePlusIcon {
+  color: black;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.profileFormButton {
+  width: 5rem;
+  margin-top: 2rem;
+}
+
+.profilePlusDeliveryButton {
+  width: 13rem;
+  height: 3rem;
+  text-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  padding-block: 0;
+  background-color: rgb(36, 175, 152);
+  border-radius: 2rem;
+}
+
+.profilePlusDeliveryText {
+  margin: 0;
+}
+/* Target the form field with error */
+.profileFieldBox.has-danger {
+  border: 1px solid red;
+}
+
+/* Target the error message */
+.profileErrorMessage {
+  color: red;
+}
+
+.enquiryMakeEnquiryButtonCol {
+  justify-content: end;
+  display: flex;
+}
+
+.enquiryMakeEnquiryButton {
+  background-color: #008a94;
+  border-radius: 1rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.enquiryMakeEnquiryButton:hover {
+  background-color: #005157;
+  border: none;
+}
+
+.accountOrderAmountSpan {
+  color: #0089a0;
+  padding-left: 1rem;
+}
+
+.profilePaddingDiv {
+  padding-block: 1.5rem;
+}
+
+.profileTabDropdownLink {
+  width: 100%;
+  height: 100%;
+  background: unset;
+  min-width: 100%;
+}
+
+.profileTabsDropdown {
+  width: auto;
+  height: 3rem;
+  background: #003142;
+  padding: 0;
+  text-align: center;
+  min-width: 100%;
+}
+
+.profileTabsDropdown:hover {
+  background: #015470;
+}
+.profileTabsDropdown > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+  border-bottom: 1px black solid;
+}
+.profileTabsDropdownActive {
+  background: #0089a0;
+  min-width: 100%;
+}
+
+.profileDropdownButton > button {
+  min-width: 100%;
+  background-color: #0089a0;
+  border: none;
+}
+
+.profileDropdownButton > button:hover {
+  background-color: #0089a0 !important;
+  border: none !important;
+}
+
+.profileDropdownButton > button.dropdown-toggle:focus {
+  background-color: #0089a0 !important;
+  border: none !important;
+}
+.profileDropdownButton > div {
+  padding: 0;
+  margin-block: 0.5rem;
+  min-width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+  .profilePictureCol {
+    display: none !important;
+  }
+
+  .profileTitleHome1 {
+    font-size: 2rem;
+  }
+  .profileTitleHome2 {
+    font-size: 2rem;
+  }
+  .profilePaddingDiv {
+    padding-block: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .profileTitleHome1 {
+    font-size: 3rem;
+  }
+  .profileTitleHome2 {
+    font-size: 3rem;
+  }
+  .profilePaddingDiv {
+    padding-block: 2rem;
+  }
+}
