@@ -1,5 +1,6 @@
 const connections = {
-  server: "http://localhost:3001",
+  // server: "http://localhost:3000",
+  server: "https://munjirimerchants.co.zw/",
 };
 
 const endpoints = {
